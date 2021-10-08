@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Palindrome Site</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <div class="heading"><h1>Palidrome Website</h1></div>
+  <div class="form">
+    <h2 id="changeHeader2">Is it a palindrome?</h2>
+    <form name="palindromeChecker" onsubmit="return false;">
+      <input
+        type="text"
+        name="word"
+        placeholder="Enter your word here"
+        id="userInput"
+      />
+      <input type="submit" value="Enter" onclick="wordByUser()" />
+    </form>
+  </div>
+  <body>
+    <script src="main.js"></script>
+  </body>
+</html>
